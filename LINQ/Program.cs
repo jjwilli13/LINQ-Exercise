@@ -12,14 +12,10 @@ namespace LINQ
 
             IEnumerable<string> games = myGames.OrderBy(myGames => myGames.Length);
 
-
-
             foreach (var game in games)
             {
                 Console.WriteLine(game);
             }
-            
-
 
 
         }
